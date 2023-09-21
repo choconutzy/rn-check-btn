@@ -11,11 +11,16 @@ npm install rn-check-btn
 ## Usage
 
 ```js
-import { multiply } from 'rn-check-btn';
+import { CheckButton, multiply } from 'rn-check-btn';
 
 // ...
 
 const result = await multiply(3, 7);
+const App = () => {
+    return (
+        <CheckButton text="Click Me" style={styles.boxButton} />
+    )
+}
 ```
 
 ## Contributing
